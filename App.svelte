@@ -70,7 +70,7 @@
         <option value="France">France</option>
       </select>
       {#if $errors.country}
-        <span class="error">{$errors.countr}</span>
+        <span class="error">{$errors.country}</span>
       {/if}
     </div>
 
